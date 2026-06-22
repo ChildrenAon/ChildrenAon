@@ -1,9 +1,9 @@
-## startupcode / 스타트업코드
+## ChildrenAon 
 안녕하세요, 현재 원광대학교 컴퓨터소프트웨어공학과를 재학 중인 권오철이라고 합니다, 저는 현재 백엔드에 관심을 가지고 있습니다
 <br />
 <br />
 <br />
-## Skills
+## Study
 #### I use it often.
 <div style="display:flex;gap:30px;flex-wrap:wrap;">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white">
