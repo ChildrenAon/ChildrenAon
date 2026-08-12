@@ -40,7 +40,7 @@
 - PR 리뷰 시 `git diff` 기반으로 설명과 실제 변경 파일을 대조하는 리뷰 방법론을 직접 정립해 팀에 적용
 - 운영 배포 중 발생한 상품 이미지 404 장애를 BE/FE/인프라에 걸쳐 원인 진단하고 크로스팀 대응 주도
 
-### **[wku-ai-chat](https://github.com/wku-ai-chat/web)** — 원광대 학사정보 + 학칙 기반 AI 챗봇 서비스 (팀 프로젝트, **BE 담당 + 리뷰어 담당**)
+### **[wku-ai-chat](https://github.com/wku-ai-chat/web)** — 원광대 학사정보 + 학칙 기반 AI 챗봇 서비스 (팀 프로젝트, **BE 담당 + 리뷰 담당**)
 - React(Vite) + Node.js/Express + MySQL 모노레포 구조
 - 학생 수강·성적 관리, 학칙·이수규정을 RAG로 검색해 근거 인용 답변하는 AI 챗봇(Claude API) 개발 중
 - 졸업요건 진단 기능 설계 중
