@@ -12,7 +12,6 @@
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 **BackEnd**
 
@@ -37,15 +36,12 @@
 ### **[wku-iksan-store-BE](https://github.com/adapterz/wku-iksan-store-BE)** — 익산 상권 기프티콘 서비스 (팀 프로젝트, **BE 담당 + 리뷰 담당**)
 - API 명세서·ERD 설계부터 인증/세션, 주문, 선물함·바코드 사용까지 핵심 플로우 전 구간 구현
 - 카테고리·상품 검색 API 설계 및 구현 (마이그레이션 스크립트 작성 포함)
+- 관리자 인증/권한, 상품·카테고리 관리, 대시보드, 리뷰 신고·문의·회원 제재까지 관리자 페이지 API 전 구간 구현
 - PR 리뷰 시 `git diff` 기반으로 설명과 실제 변경 파일을 대조하는 리뷰 방법론을 직접 정립해 팀에 적용
 - 운영 배포 중 발생한 상품 이미지 404 장애를 BE/FE/인프라에 걸쳐 원인 진단하고 크로스팀 대응 주도
 
-### **[ONE Student](https://github.com/ONE-Student-WKU/web)** — 원광대 학사정보 + 학칙 기반 AI 챗봇 서비스 (팀 프로젝트, **BE 담당 + 리뷰 담당**)
+### **[ONE Student](https://github.com/ONE-Student-WKU/web)** — 원광대 학사정보 + 학칙 기반 AI 챗봇 서비스 (팀 프로젝트, **리더**)
 - React(Vite) + Node.js/Express + MySQL 모노레포 구조
-- 학생 수강·성적 관리, 학칙·이수규정을 RAG로 검색해 근거 인용 답변하는 AI 챗봇(Claude API) 개발 중
-- 졸업요건 진단 기능 설계 중
-
-### **[community-react-practice](https://github.com/ChildrenAon/community-react-practice)** — 커뮤니티 기반 사이트 (개인 프로젝트, 진행 중)
-- 부족한 React 역량을 채우기 위해 시작, 프론트엔드부터 직접 구현하는 중
-- React 뿐만 아니라 취업에 도움이 될만한 스택에 대해 학습하기 위해 진행
-- Docker 등 배포 환경과 실무에서 요구되는 엔지니어링 방식을 함께 적용해보며 취업에 실질적으로 도움이 될 경험을 쌓는 것을 목표로 함
+- 학사 관리(수강·성적 입력, 성적표 PDF 자동 인식·입력, 졸업요건 진단, 재수강 안내)·AI 챗봇(RAG 기반 학칙 근거 인용)·진로 탐색까지 핵심 기능 전 구간 구현
+- 커뮤니티 모집 게시판, 관리자 승인 검수 플로우, 관리자 대시보드까지 구현 완료
+- 테스트 인프라 도입, Sentry 연동, DB 자동 재시딩 파이프라인 등 프론트엔드·백엔드·인프라 전 영역 주도
