@@ -10,7 +10,6 @@
 
 **FrontEnd**
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 **BackEnd**
@@ -21,13 +20,6 @@
 **DataBase**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Infra / DevOps**
-
-![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
@@ -44,4 +36,4 @@
 - React(Vite) + Node.js/Express + MySQL 모노레포 구조
 - 학사 관리(수강·성적 입력, 성적표 PDF 자동 인식·입력, 졸업요건 진단, 재수강 안내)·AI 챗봇(RAG 기반 학칙 근거 인용)·진로 탐색까지 핵심 기능 전 구간 구현
 - 커뮤니티 모집 게시판, 관리자 승인 검수 플로우, 관리자 대시보드까지 구현 완료
-- 테스트 인프라 도입, Sentry 연동, DB 자동 재시딩 파이프라인 등 프론트엔드·백엔드·인프라 전 영역 주도
+- 테스트 인프라(Vitest, node:test) 도입, Sentry 에러 추적 연동 등 백엔드 안정성·관측성 개선 주도
