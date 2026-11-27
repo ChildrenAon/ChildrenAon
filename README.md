@@ -60,10 +60,6 @@
 | 장바구니 결제가 담은 상품 수만큼 DB를 오감 `N+1` | 조회는 `IN` 한 번, 저장은 여러 행을 한 문장으로 넣어 쿼리 수를 고정 (30개 기준 75.7ms → 16.5ms) | [#133](https://github.com/adapterz/wku-iksan-store-BE/pull/133) |
 | 보낸 사람이 탈퇴하면 받은 선물이 사라짐 `주문 시점 기록` | 주문할 때 닉네임을 함께 저장하고, 선물 조회는 회원 정보 대신 그 기록을 사용 | [#76](https://github.com/adapterz/wku-iksan-store-BE/pull/76) |
 
-### 그 밖에
-
-- [winforms-calendar](https://github.com/ChildrenAon/winforms-calendar) — 윈도우 프로그래밍 수업 팀 프로젝트 (C# WinForms 달력·일정 관리 앱)
-
 ---
 
 ## 📝 기록
