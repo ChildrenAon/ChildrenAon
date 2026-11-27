@@ -59,9 +59,3 @@
 |---|---|---|
 | 장바구니 결제가 담은 상품 수만큼 DB를 오감 `N+1` | 조회는 `IN` 한 번, 저장은 여러 행을 한 문장으로 넣어 쿼리 수를 고정 (30개 기준 75.7ms → 16.5ms) | [#133](https://github.com/adapterz/wku-iksan-store-BE/pull/133) |
 | 보낸 사람이 탈퇴하면 받은 선물이 사라짐 `주문 시점 기록` | 주문할 때 닉네임을 함께 저장하고, 선물 조회는 회원 정보 대신 그 기록을 사용 | [#76](https://github.com/adapterz/wku-iksan-store-BE/pull/76) |
-
----
-
-## 📝 기록
-
-- [TIL](https://github.com/ChildrenAon/TIL) — 개발하며 새로 알게 된 것을 날짜별로 기록합니다. 지금은 운영 중인 ONE Student 코드를 기능 하나씩 화면에서 DB까지 따라가며 다시 읽고 있습니다.
